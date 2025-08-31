@@ -1,0 +1,6 @@
+OUTPUT:
+Enter the number of elements:5
+Enter the elements:10 20 30 40 50
+The list before rotation: [10, 20, 30, 40, 50]
+Enter k:2
+The list after rotation: [40, 50, 10, 20, 30]
