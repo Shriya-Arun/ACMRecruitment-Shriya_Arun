@@ -1,0 +1,10 @@
+Problem:
+Given an integer array nums, rotate the array to the right by k steps, where k is non-negative.
+
+Solution:
+- I ask the user how many elements they want and to enter the elements and then stored them in a list num.  
+- I copy the list so I can rotate it without disturbing the original one during the loop.  
+- I run a loop k times to rotate the list one step at a time.  
+- Inside each loop, I shift every element to the right using newlst[j] = nums[j-1].  
+- I updated the original list with the rotated version after each inner loop.
+- After the loop is completed, I print the final result.  
