@@ -1,0 +1,23 @@
+Input text file - Demofile.txt:
+The morning was quiet
+The morning was kind  
+Coffee warmed the air
+Coffee calmed the mind  
+The day began and the day felt new
+
+Output:
+the--->6
+morning--->2
+was--->2
+coffee--->2
+day--->2
+quiet--->1
+kind--->1
+warmed--->1
+air--->1
+calmed--->1
+mind--->1
+began--->1
+and--->1
+felt--->1
+new--->1
