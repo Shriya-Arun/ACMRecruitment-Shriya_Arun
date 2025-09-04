@@ -1,0 +1,19 @@
+1. Iterative method:
+* I first ask for the string from the user and store it in a variable, s. 
+* I created an empty string to store the reversed version, s2.
+* Using for i in range(len(s)-1,-1,-1) 
+ i first gets the value of last index in the string
+ then we go backwards as the step value is -1
+ until we reach the very first character whose index=0 , value just before the stop value -1.
+ * s2 += s[i] adds each character in reverse order to s2.
+ * Finally, we print the reversed string.
+
+ 2. Recursive method:
+* Defines a function that reverses a string by calling itself.
+* If the string is empty, we return the string itself.
+* Recursive case:  The function calls itself with the string minus its first character (string[1:]).
+After the smaller string is reversed, it adds the first character (string[0]) to the end of the result.
+This process continues until the entire string is reversed.
+* Ask the string from the user, call the function.
+* Show the final reversed string.
+
